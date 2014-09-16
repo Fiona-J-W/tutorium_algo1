@@ -12,6 +12,6 @@ Lizenzen
 * Sämtlicher Code unter der GPL v3 oder später.
 * ineffective_sorts_wide.png stammt von [http://xkcd.com/1185/](Randal Munroe) und steht unter [CC-BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/).
 * brace_yourself.jpg ist propriätere fair-use-Verwendung oder erreicht keine Schöpfungshöhe.
-* Alles andere steht unter der [Creative-Commons Lizenz „Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland“ \(CC BY-SA 3.0 DE\)](https://creativecommons.org/licenses/by-sa/3.0/de/).
+* Alles andere steht unter der [Creative-Commons Lizenz „Namensnennung - Weitergabe unter gleichen Bedingungen 4.0“ \(CC BY-SA 4.0\)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 
