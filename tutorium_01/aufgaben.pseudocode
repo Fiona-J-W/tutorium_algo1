@@ -1,0 +1,40 @@
+
+
+
+
+
+fn find(container: Sequence, pred: Predicate): auto
+	for element in container:
+		if predicate(element):
+			return element
+	throw not_found_exception
+
+
+
+
+fn fold(container: Sequence, fun: Function<U(T,U)>, init: auto): auto
+	var value := init;
+	for element in container:
+		value := fun(element, value)
+	return value
+
+
+
+
+fn fib(n: uint): uint
+	if n < 2:
+		return n
+	else return fib(n - 1) + fib(n - 2)
+
+
+
+fn fib(n: uint): uint
+	if n < 2:
+		return n
+	static var cache: hash_map<uint, uint>
+	if cache.contains(n):
+		return cache.get(n)
+	value := fib(n - 1) + fib(n - 2)
+	cache.insert(n, value)
+	return value
+

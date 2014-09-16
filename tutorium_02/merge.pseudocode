@@ -1,0 +1,11 @@
+ procedure merge(A : Array [1..n1] of N≥0, B : Array [1..n2] of N≥0 )
+ 	A[n1 + 1] := ∞, B[n2 + 1] := ∞
+ 	n := n1 + n2
+ 	jA := 1, jB := 1;
+ 	for i := 1 to n do
+ 		C[i] = min(A[jA ], B[jB ])
+ 		if A[jA] < B[jB ] then
+ 			jA = jA + 1
+ 		else
+ 			jB = jB + 1
+ 	return C
